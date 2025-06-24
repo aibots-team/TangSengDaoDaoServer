@@ -1,6 +1,6 @@
 module github.com/TangSengDaoDao/TangSengDaoDaoServer
 
-go 1.20
+go 1.23.0
 
 require (
 	github.com/TangSengDaoDao/TangSengDaoDaoServerLib v1.0.5
@@ -32,7 +32,7 @@ require (
 	github.com/stretchr/testify v1.8.3
 	github.com/tidwall/gjson v1.15.0
 	go.uber.org/zap v1.24.0
-	golang.org/x/crypto v0.11.0
+	golang.org/x/crypto v0.35.0
 	google.golang.org/grpc v1.57.0
 	google.golang.org/protobuf v1.31.0
 	gopkg.in/go-playground/assert.v1 v1.2.1
@@ -137,11 +137,11 @@ require (
 	go.uber.org/multierr v1.8.0 // indirect
 	golang.org/x/arch v0.3.0 // indirect
 	golang.org/x/image v0.5.0 // indirect
-	golang.org/x/net v0.12.0 // indirect
+	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/oauth2 v0.7.0 // indirect
-	golang.org/x/sync v0.3.0 // indirect
-	golang.org/x/sys v0.10.0 // indirect
-	golang.org/x/text v0.11.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/api v0.122.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
